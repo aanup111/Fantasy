@@ -1,0 +1,49 @@
+.search-bar{
+    position:absolute;
+    left:45%;
+    top:120px;
+    height:40px;
+    background: linear-gradient(to right, #f0f2f0, #000c40);
+    min-width: 10%;
+    width: 20vh;
+}
+
+.search-text{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    width: 240px;
+}
+
+#drop-list {
+    background: linear-gradient(to right, #f0f2f0, #000c40);
+    min-width: 10%;
+    width: 20vh;
+    position:absolute;
+    left:45%;
+    top: 159px;
+    
+}
+#list-text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600; 
+    padding: 0px 10px;
+    padding-top: 5px;
+}
+
+.fade-appear {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-appear.fade-appear-active{
+    opacity: 1;
+    transition: opacity 1000ms linear;
+}

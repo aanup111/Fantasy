@@ -1,0 +1,36 @@
+h1 {
+text-align:center;
+}
+
+#list {
+min-height: 400px;
+}
+
+#parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fade-enter {
+    opacity: 0;
+  }
+  .fade-ender.fade-enter-active{
+    opacity: 0;
+    transition: opacity 300ms linear;
+  }
+  
+  .fade-exit{
+    opacity: 1;
+  }
+  
+  .fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms linear;
+    
+  }
+  
+  .fade-exit-done {
+    opacity: 0;
+  }
